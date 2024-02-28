@@ -1,0 +1,11 @@
+{
+  "name": "sum-of-firsth-nth",
+  "version": "1.0.0",
+  "description": "Codewars Challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "author": "aceler",
+  "license": "ISC"
+}
