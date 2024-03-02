@@ -29,6 +29,7 @@
 // s1 = 1.00
 // s2 = 1.25
 // s3 = 1.39
+// s4 = 1.49
 //
 // === FIRST CALCULATION ===
 // * Subtract s2 with s1
@@ -44,8 +45,13 @@
 // * Add s1 with s2 and result of (s3-s2)
 //    -> 1.00 + 1.25 + 0.14 = 1.39  
 // 
-// 
+// === THIRD CALCULATION ===
+// * Subtract s4 with s3
+//    -> 1.49 - 1.39 = 0.1
 //
+// * Add  s3 and result of (s4-s3)
+//    -> 1.39 + 0.1 = 1.49
+
 function SeriesSum(n)
 {
   // Happy Coding ^_^
