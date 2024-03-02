@@ -1,4 +1,8 @@
 // https://www.codewars.com/kata/555eded1ad94b00403000071/train/javascript
+
+
+// Resource: https://www.cuemath.com/algebra/arithmetic-sequence/
+
 /**
  * - Variables
  * S[n] = sum of the first n terms
@@ -13,6 +17,11 @@
  * 
  */
 
+// 1/4  = 0.25
+// 1/7  = 0.14
+// 1/10 = 0.10
+// 1/13 = 0.08
+// 
 
 /// Series to Compute: Series: 1 + 1/4 + 1/7 + 1/10 + 1/13 + 1/16
 //                           1 = 1.00
