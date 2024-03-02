@@ -2,12 +2,14 @@
 /**
  * - Variables
  * S[n] = sum of the first n terms
- *    a = first term
- *    d = the difference between each term
- *    n = number of terms
+ *    a_1 = first term
+ *    a_2 = second term
+ *      d = the difference between each term
+ *      n = number of terms
  * 
  * - EQUATION
- * S[n] = n/2(2a + (n-1)d)
+ *  a_n = S[n] - S_[n-1]
+ * S[n] = a_1 + a_2 + i + a_n 
  * 
  */
 
