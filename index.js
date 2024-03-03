@@ -17,21 +17,28 @@
 
 function SeriesSum(n)
 {
-  let total = Math.abs(1/(1+3*(1-1)));
-  let accumulator = 0;
-  // Happy Coding ^_^
-  for(let i = 1; i < n; i++){
-    let prev = total;
-    total+=Math.abs(1/(1+3*(n-1)));
-    accumulator = prev+total;
-    prev = total;
-    console.log(total);
+  if(n === 0){
+    return "0.00";
   }
+  let total = Math.abs(1/(1+3*(1-1)));
+  let container = "";
+  for(let i = 2; i <= n+1; i++){
+    total+=Math.abs(1/(1+3*(i-1)))
+    let rounded = total.toFixed(2);
+    console.log(rounded.toString());
+    container = rounded.toString();
+  }
+  return container;
 
 }
+
+//SeriesSum(1);
+SeriesSum(2);
+SeriesSum(0);
+
 //Math.abs(1/(1+3*(n-1)))
 
-// Initialize
+/* // Initialize
 let total = Math.abs(1/(1+3*(1-1)));
 let i = 2;
 console.log(total);
@@ -52,5 +59,10 @@ console.log(total);
 total += Math.abs(1/(1+3*(i-1)))
 i+=1;
 console.log(total);
+console.log('\n');
 
-
+let total2 = Math.abs(1/(1+3*(1-1)));
+for(let j = 2; j <= 3; j++){
+  total2+=Math.abs(1/(1+3*(j-1)))
+  console.log(total2);
+} */
