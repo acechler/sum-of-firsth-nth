@@ -17,18 +17,40 @@
 
 function SeriesSum(n)
 {
-
+  let total = Math.abs(1/(1+3*(1-1)));
+  let accumulator = 0;
   // Happy Coding ^_^
+  for(let i = 1; i < n; i++){
+    let prev = total;
+    total+=Math.abs(1/(1+3*(n-1)));
+    accumulator = prev+total;
+    prev = total;
+    console.log(total);
+  }
 
 }
 //Math.abs(1/(1+3*(n-1)))
 
+// Initialize
 let total = Math.abs(1/(1+3*(1-1)));
+let i = 2;
 console.log(total);
-total += Math.abs(1/(1+3*(2-1)))
+
+// First Iteration
+total += Math.abs(1/(1+3*(i-1)))
+i+=1;
 console.log(total);
-total += Math.abs(1/(1+3*(3-1)))
+
+
+// Second Iteration
+total += Math.abs(1/(1+3*(i-1)))
+i+=1;
 console.log(total);
-total += Math.abs(1/(1+3*(4-1)))
+
+
+// Third Iteration
+total += Math.abs(1/(1+3*(i-1)))
+i+=1;
 console.log(total);
+
 
