@@ -17,26 +17,18 @@
 
 function SeriesSum(n)
 {
+
   // Happy Coding ^_^
 
-  /// Initialize
-  // s1 = 1
-  // s2 = 1/4
-
-  const s1 = 1;
-  const s2 = 1.25;
-
-  /// Subtract s2 with s1
-  // 1 - 1/4
-  let difference = Math.abs(s1-s2);
-  let sn = difference + s1;
-
-  
-  
-
-  console.log(difference);
-  console.log(sn);
-  console.log(n);
 }
+//Math.abs(1/(1+3*(n-1)))
 
-SeriesSum(5);
+let total = Math.abs(1/(1+3*(1-1)));
+console.log(total);
+total += Math.abs(1/(1+3*(2-1)))
+console.log(total);
+total += Math.abs(1/(1+3*(3-1)))
+console.log(total);
+total += Math.abs(1/(1+3*(4-1)))
+console.log(total);
+
