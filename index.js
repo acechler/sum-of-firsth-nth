@@ -4,6 +4,8 @@
 // Resource: https://www.cuemath.com/algebra/arithmetic-sequence/
 
 
+// Desmos: https://www.desmos.com/calculator/khj17ytzwc
+
 
 /// Series to Compute: Series: 1 + 1/4 + 1/7 + 1/10 + 1/13 + 1/16
 //                           1 = 1.00
